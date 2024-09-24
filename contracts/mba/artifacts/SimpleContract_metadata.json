@@ -17,6 +17,57 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "oldNumber",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "newNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "NewNumberSet",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "isThisNumberLarger",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "number",
 				"outputs": [
@@ -30,16 +81,53 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "nyAddress",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "_myAddress",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"name": "setMyAdress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "setNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_number2",
+						"type": "uint256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -71,11 +159,11 @@
 	},
 	"sources": {
 		"contracts/mba/SimpleContract.sol": {
-			"keccak256": "0x210f6dfccbb812d968f9b9ae4f8953baa23bd2bca760da6218a34ba13a26a814",
+			"keccak256": "0x76d03e0201bb898e9f2dd142a66a69e5133af87cac06501c0e0649359fc9ca99",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6fca3c6d0c391cd9ca2fd1e3557c979e79b626b2cc56a49d710083651d525ab6",
-				"dweb:/ipfs/QmPq8EREhGbzZsx51xpmdxvjGWtKV8zh7GqZ3cQPrcKi8t"
+				"bzz-raw://3d36f691289d614499da2748d00ff871af24e6111058bbd770763e0e6d21f167",
+				"dweb:/ipfs/QmccLptGjUqkwer1yoRUjJJwcuGBm7FxdA19oPLeUn9CPJ"
 			]
 		}
 	},
