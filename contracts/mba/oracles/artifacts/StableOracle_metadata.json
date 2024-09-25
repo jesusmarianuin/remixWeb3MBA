@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mba/oracles/StableOracle.sol": "StableOracle"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mba/oracles/IOracle.sol": {
+			"keccak256": "0x55e3f1d3877153e4295be0b86d0d38e891e74ba2fb2a81ae32dd6d6acb8ed864",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fd7ff1e174a39325dba378d9665c3c377b9140645f68137bee35128e828ab6fc",
+				"dweb:/ipfs/QmWakxYcYk4vEoqP9dBgANgnCuEfgRYbZX83QuMed4127b"
+			]
+		},
+		"contracts/mba/oracles/StableOracle.sol": {
+			"keccak256": "0x6fe9315bbbc0ce7ce4134bf71896a81b24a6ec9693e266482fc15321d6656efa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7134a8330ec541b1ac75b77dc4fd05f0bb5241c056ca3a8854a104793c4b19d2",
+				"dweb:/ipfs/QmfLMctbxzTSYyTPwVLngHJ1ujVrHUQGNQeC1TrsH6KcC8"
+			]
+		}
+	},
+	"version": 1
+}

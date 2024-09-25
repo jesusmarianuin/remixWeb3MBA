@@ -1,0 +1,110 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_token",
+						"type": "address"
+					}
+				],
+				"name": "checkPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "oracles",
+				"outputs": [
+					{
+						"internalType": "contract IOracle",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_token",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_oracle",
+						"type": "address"
+					}
+				],
+				"name": "setOracle",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mba/oracles/PriceChecker.sol": "PriceChecker"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mba/oracles/IOracle.sol": {
+			"keccak256": "0x55e3f1d3877153e4295be0b86d0d38e891e74ba2fb2a81ae32dd6d6acb8ed864",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fd7ff1e174a39325dba378d9665c3c377b9140645f68137bee35128e828ab6fc",
+				"dweb:/ipfs/QmWakxYcYk4vEoqP9dBgANgnCuEfgRYbZX83QuMed4127b"
+			]
+		},
+		"contracts/mba/oracles/PriceChecker.sol": {
+			"keccak256": "0x6faa1d975f88665b09899b2cb649fdb0a809128eeacefc6174e10eecfaefa5b9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7d1fcf372c47e335b077d8b727b2d3543944a3187bc8c398c5cde67493ab5b4f",
+				"dweb:/ipfs/QmXxydRZZSKfs3iL8NHt7KTqDC8kKFmXrEdSWm4z1D1P91"
+			]
+		}
+	},
+	"version": 1
+}

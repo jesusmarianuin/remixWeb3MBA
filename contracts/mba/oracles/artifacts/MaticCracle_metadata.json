@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
+					}
+				],
+				"name": "setPrice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mba/oracles/MaticOracle.sol": "MaticCracle"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mba/oracles/IOracle.sol": {
+			"keccak256": "0x55e3f1d3877153e4295be0b86d0d38e891e74ba2fb2a81ae32dd6d6acb8ed864",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fd7ff1e174a39325dba378d9665c3c377b9140645f68137bee35128e828ab6fc",
+				"dweb:/ipfs/QmWakxYcYk4vEoqP9dBgANgnCuEfgRYbZX83QuMed4127b"
+			]
+		},
+		"contracts/mba/oracles/MaticOracle.sol": {
+			"keccak256": "0x17a78a82b55e94020248f57dda11aa3ba7968cf925b65bbbc0cf778b336bd7d1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a09d3be5cfc5f0dc8587ca6a85ed0402de9e45b271117c9462cf40e5d70e6700",
+				"dweb:/ipfs/QmNghf5WLH9hsMiAZ4CTrQB6B4VYdpE1bmsB9CfaqW5qUk"
+			]
+		}
+	},
+	"version": 1
+}
