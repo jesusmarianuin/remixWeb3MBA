@@ -276,6 +276,25 @@
 				"inputs": [
 					{
 						"internalType": "bytes32",
+						"name": "_hash",
+						"type": "bytes32"
+					}
+				],
+				"name": "getSongOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
 						"name": "",
 						"type": "bytes32"
 					}
@@ -761,11 +780,11 @@
 			]
 		},
 		"contracts/mba/MusicToken.sol": {
-			"keccak256": "0xcd019f3bd7e43e87417ac29e6a3aefffb9660fa326e0595cff74b61e9d3c183a",
+			"keccak256": "0x156ff55c96a65decbc9fceb477988ecf01b8c2551e1a3220caba7e887d8a12f5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1e98ffd2a542f3b1b24335be7ae13161c04a99615aa487f20507b1b452d477d4",
-				"dweb:/ipfs/QmWxfEgvyGNXajQPeMZtypHndhFJEpWSA8oFau6VKziLuF"
+				"bzz-raw://81228046c79a9826d8a0b41826f328ac4866633939b3511c21bffe555f180725",
+				"dweb:/ipfs/QmP8jJVPLazTUuiycmVLq7kaBg3G2cVkv4aAdjqDyzK6Dd"
 			]
 		}
 	},

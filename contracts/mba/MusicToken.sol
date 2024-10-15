@@ -17,9 +17,15 @@ contract MusicToken is ERC721 {
 
     // es plataforma abierta asi que no es ownable
     function createSong(string memory _title, string memory _artist, uint256  _year, bytes32  _hash) public {
+        require(hashesToIds[_hash] == 0, "Song already exists");
         totalSupply++;
         songs[totalSupply] = Song(_title, _artist, _year, _hash);
         hashesToIds[_hash] = totalSupply;
+        _mint(msg.sender, totalSupply);
+    }
+
+    function getSongOwner(bytes32 _hash) public view returns(address) {
+        return ownerOf(hashesToIds[_hash]);
     }
 
 }
